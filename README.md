@@ -60,4 +60,4 @@ This is a simple desktop application that allows users to enter student details,
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/StudentInformationSystem.git
+https://github.com/Sir7an/CollageStudent.git
