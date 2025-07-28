@@ -16,25 +16,19 @@ This is a simple desktop application that allows users to enter student details,
 
 ## ✨ Features
 
-- Simple and user-friendly interface  
-- Real-time calculation of total course fees  
-- Supports multiple course selections  
-- Displays organized and clear student summary  
+- Simple and user-friendly interface
+- Real-time calculation of total course fees
+- Supports multiple course selections
+- Displays organized and clear student summary
 - Useful for basic student record management and training
 
 ---
 
-## 🛠️ Built With
+## 🖼️ Screenshots
 
-- **Java** – for building the application logic and GUI  
-- **CSS (JavaFX style)** – for customizing the user interface
-
----
-
-## 📸 Screenshot
-
-![App Screenshot](path/to/screenshot.png)  
-> _Update this path if you upload the image to the repo_
+![App Screenshot 1](Student_Information_1.PNG)
+![App Screenshot 2](Student_Information_2.PNG)
+![App Screenshot 3](Student_Information_3.PNG)
 
 ---
 
