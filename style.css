@@ -1,0 +1,197 @@
+.root {
+    -fx-background-color: linear-gradient(to bottom left, #f69673,#765784);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 8, 0, 1,4);
+    -fx-font-family: 'Segoe UI', Roboto , Arial, sans-serif;
+    -fx-padding: 20px;
+}
+
+/* Transparent ScrollPane and Label */
+.transparent-scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-border-width: 0;
+}
+
+.transparent-scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.display-label {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-background-color: transparent;
+    -fx-padding: 10;
+}
+
+/* Other existing styles remain the same */
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight:  bold, Italic;
+    -fx-text-fill: #000;
+    -fx-effect: dropshadow(one-pass-box, rgba(54,53,55), 8, 0, 1, 4);
+}
+
+.text-field {
+    -fx-font-size: 14px;
+    -fx-font-weight:  bold, Italic;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #3333;
+    -fx-padding: 2px;
+    -fx-background-color: null;
+}
+
+.button {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 6px 32px;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-cursor: hand;
+    -fx-text-fill: #070707;
+    -fx-background-color: null;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 1, 2);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #765784, #765784);
+}
+
+.button:pressed {
+    -fx-background-color: linear-gradient(to bottom, #f69673, #f69673);
+    -fx-translate-y: 1px;
+}
+
+.info-panel {
+    -fx-background-color: null;
+    -fx-border-color: null;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.details-panel {
+    -fx-background-color: null;
+    -fx-border-color: null;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0, 0, 0);
+}
+
+.panel-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000;
+    -fx-padding: 0 0 10 0;
+}
+
+.check-box {
+    -fx-text-fill: #000;
+    -fx-font-weight: bold;
+    -fx-padding: 5 0 5 0;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #f69673;
+}
+
+.check-box .box {
+    -fx-background-color: null;
+    -fx-border-color: #000;
+    -fx-border-radius: 3;
+}
+
+.display-button-no-bg {
+    -fx-background-color: null;
+    -fx-text-fill: #000;
+    -fx-font-weight: bold;
+    -fx-background-radius: 3;
+    -fx-pref-width: 100;
+    -fx-pref-height: 30;
+}
+.root {
+    -fx-background-color: linear-gradient(to bottom left, #f69673,#765784);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 8, 0, 1,4);
+    -fx-font-family: 'Segoe UI', Arial, sans-serif;
+    -fx-padding: 20px;
+}
+
+/* CRUCIAL SCROLLPANE FIXES */
+.transparent-scroll-pane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+    -fx-border-width: 0;
+}
+
+.transparent-scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.transparent-scroll-pane .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.transparent-scroll-pane .scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+}
+
+.transparent-scroll-pane .scroll-bar:vertical .thumb {
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 5em;
+}
+
+/* TEXTAREA STYLING */
+.display-area {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+
+.display-area .content {
+    -fx-background-color: transparent;
+}
+
+/* OTHER STYLES (keep your existing styles) */
+.info-panel, .details-panel {
+    -fx-background-color: null;
+    -fx-border-color: null;
+}
+
+.panel-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #f69673;
+}
+
+.display-button {
+    -fx-background-color: null;
+    -fx-text-fill: Black;
+}
+
+/* Display Label Styling */
+.display-label {
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-background-color: transparent;
+    -fx-padding: 10;
+    -fx-wrap-text: true;
+    -fx-alignment: top-left;
+}
+
+
+/* Other existing styles remain the same */
+/* ... (keep all your other existing CSS rules) ... */
+/*.display-button-no-bg:hover {*/
+/*    -fx-background-color: #552e66;*/
+/*}*/
