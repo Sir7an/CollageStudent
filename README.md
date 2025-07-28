@@ -1,4 +1,4 @@
-# 🎓Collage Students Information System
+# 🎓 Student Information System
 
 This is a simple desktop application that allows users to enter student details, select courses, and automatically calculate the total course fees. The app displays a complete summary of the student’s information in a clear and structured format.
 
@@ -14,22 +14,13 @@ This is a simple desktop application that allows users to enter student details,
 
 ---
 
-## 💻 How It Works
+## ✨ Features
 
-1. Enter the student's:
-   - Name
-   - Birth date
-   - Academic level
-
-2. Select the courses you want to register.
-
-3. Click **"Display Information"**
-
-4. A summary will appear showing:
-   - All student info
-   - List of registered courses
-   - Fee breakdown per course
-   - Total fees and payment due message
+- Simple and user-friendly interface  
+- Real-time calculation of total course fees  
+- Supports multiple course selections  
+- Displays organized and clear student summary  
+- Useful for basic student record management and training
 
 ---
 
