@@ -1,4 +1,4 @@
-# 🎓 Student Information System
+# 🎓Collage Students Information System
 
 This is a simple desktop application that allows users to enter student details, select courses, and automatically calculate the total course fees. The app displays a complete summary of the student’s information in a clear and structured format.
 
@@ -35,7 +35,7 @@ This is a simple desktop application that allows users to enter student details,
 
 ## 🛠️ Built With
 
-- **Java** – for building the application logic and GUI
+- **Java** – for building the application logic and GUI  
 - **CSS (JavaFX style)** – for customizing the user interface
 
 ---
@@ -43,16 +43,7 @@ This is a simple desktop application that allows users to enter student details,
 ## 📸 Screenshot
 
 ![App Screenshot](path/to/screenshot.png)  
-> _Make sure to update the path if you upload the image._
-
----
-
-## ✨ Features
-
-- Simple and easy-to-use interface  
-- Real-time fee calculation  
-- Organized and printable student summary  
-- Useful for training, assignments, or basic student record systems
+> _Update this path if you upload the image to the repo_
 
 ---
 
@@ -60,4 +51,4 @@ This is a simple desktop application that allows users to enter student details,
 
 1. Clone the repository:
    ```bash
-https://github.com/Sir7an/CollageStudent.git
+   git clone https://github.com/Sir7an/CollageStudent.git
